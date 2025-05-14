@@ -1,0 +1,5 @@
+Regressor,R2_Score,Parameters
+DummyRegressor,-0.0005698745898738977,0
+LinearRegressor,0.3483875202142729,0
+DecisionTreeRegressor,0.4992899022667734,{'max_depth': 10}
+RandomForestRegressor,0.5930827219226238,"{'max_depth': 10, 'n_estimators': 1000}"
