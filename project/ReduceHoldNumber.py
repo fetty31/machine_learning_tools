@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('data/ReducedData.csv')
+data = pd.read_csv('project/ReducedData.csv')
 print(data.shape)
 data.drop(data[data['length'] > 20].index, inplace=True)
 print(data.shape)
@@ -11,4 +11,4 @@ for i in range(20, 40):
     cols.append(c1)
     cols.append(c2)
 data.drop(columns=cols, inplace=True)
-data.to_csv('data/ReducedData.csv', index=False)
+data.to_csv('project/ReducedData20.csv', index=False)

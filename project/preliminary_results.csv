@@ -3,3 +3,7 @@ DummyRegressor,-0.0005698745898738977,0
 LinearRegressor,0.3483875202142729,0
 DecisionTreeRegressor,0.4992899022667734,{'max_depth': 10}
 RandomForestRegressor,0.5930827219226238,"{'max_depth': 10, 'n_estimators': 1000}"
+ExtraTreeRegressor,0.5167870801315893,"{'max_depth': 10, 'min_samples_leaf': 1}"
+GradientBoostingRegressor,0.8098800528484094,"{'learning_rate': 0.1, 'n_estimators': 1000}"
+AdaBoostRegressor,0.34893130142741513,"{'learning_rate': 0.03162277660168379, 'n_estimators': 316}"
+HistGradientBoostingRegressor,0.8603736037094811,"{'learning_rate': 0.1, 'max_depth': 8, 'max_iter': 1000}"
